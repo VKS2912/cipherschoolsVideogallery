@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html {
+  font-size: 16px;
+}
+
+/* For screens smaller than 600px, reduce font size by 10% */
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* For screens larger than 1200px, increase font size by 10% */
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 18px;
+  }
+}

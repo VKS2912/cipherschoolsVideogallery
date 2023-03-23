@@ -16,3 +16,19 @@
 ::-webkit-scrollbar-button {
   display: none;
 }
+.sentence-text {
+  display: inline-block;
+  
+}
+.sentence-text.overflown {
+  animation: slide-text 5s linear infinite;
+}
+@keyframes slide-text {
+  from {
+    transform: translateX(100%);
+  }
+  
+  to {
+    transform: translateX(-100%);
+  }
+}
